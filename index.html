@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio Website</title>
+  <title>Erick Chacon | Portfolio</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,10 +16,13 @@
 <body>
 
   <!-- Navigation Bar -->
+  <!-- The header contains the main site navigation that stays at the top. -->
   <header>
     <nav class="navbar">
-      <h2 class="logo">My Portfolio</h2>
+      <!-- The logo is a short text label styled in CSS. -->
+      <h2 class="logo">Erick C.</h2>
 
+      <!-- The nav-links list creates menu items that link to sections on the page. -->
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -31,97 +34,135 @@
   </header>
 
   <!-- Hero Section -->
+  <!-- The hero section is the first thing visitors see and introduces the page owner. -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Hello, I'm Erick</h1>
-      <p>
-        I am learning web development and building projects using HTML, CSS,
-        and AI tools to create clean and useful websites.
-      </p>
-      <a href="#projects" class="button">View My Projects</a>
+      <img src="img/IMG_2016.JPG" alt="Profile picture of Erick Chacon" class="hero-image">
+      <div class="hero-text">
+        <p class="intro-text">Hello, my name is</p>
+
+        <h1>Erick Chacon</h1>
+
+        <p class="tagline">
+          I build simple, clean, and creative websites while learning web development.
+        </p>
+
+        <p class="hero-description">
+          I am exploring how code, design, and AI can work together to create useful digital experiences.
+        </p>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="button">View My Work</a>
+        <a href="#contact" class="button secondary-button">Contact Me</a>
+      </div>
     </div>
   </section>
 
   <!-- About Section -->
+  <!-- This section describes who you are and why visitors should care. -->
   <section id="about" class="section">
-    <h2>About Me</h2>
+    <p class="section-label">About Me</p>
+    <h2>Who I Am</h2>
+
     <p>
-      I am a student interested in technology, web development, and creative
-      problem-solving. This portfolio website showcases the projects I am
-      building as I continue learning HTML, CSS, and other web development
-      skills.
+      I am a student interested in technology, web design, and creative problem-solving.
+      I enjoy learning how websites are built and how design choices can make information
+      easier to understand. This portfolio is a place where I can showcase my projects,
+      practice my skills, and track my growth as a web developer.
+    </p>
+
+    <p class="about-personal">
+      Currently, I am focusing on HTML, CSS, responsive design, and using AI as a learning tool.
+    </p>
+
+    <p class="about-personal">
+      I also like to explore new ideas, try simple design experiments, and keep learning
+      one small step at a time :)
     </p>
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="section light-section">
+    <p class="section-label">What I’m Learning</p>
     <h2>My Skills</h2>
 
     <div class="skills-container">
       <div class="skill-card">
         <i class="fa-brands fa-html5"></i>
         <h3>HTML</h3>
-        <p>I use HTML to structure content on webpages.</p>
+        <p>I use HTML to create the structure and content of webpages.</p>
       </div>
 
       <div class="skill-card">
         <i class="fa-brands fa-css3-alt"></i>
         <h3>CSS</h3>
-        <p>I use CSS to style webpages and make them visually appealing.</p>
+        <p>I use CSS to style pages with colors, spacing, layout, and design.</p>
       </div>
 
       <div class="skill-card">
-        <i class="fa-solid fa-robot"></i>
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
         <h3>AI Tools</h3>
-        <p>I use AI to brainstorm ideas, troubleshoot code, and improve designs.</p>
+        <p>I use AI to brainstorm ideas, improve code, and troubleshoot problems.</p>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
+  <!-- Project cards show examples of your work or things you want to share. -->
   <section id="projects" class="section">
+    <p class="section-label">Portfolio</p>
     <h2>My Projects</h2>
 
     <div class="projects-container">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
+      <div class="project-card featured-project">
+        <p class="project-number">01</p>
+        <h3>Personal Portfolio Website (this webpage!)</h3>
         <p>
-          A single-page personal portfolio website built with HTML and CSS.
-          This project helped me practice layout, colors, sections, and navigation.
+          A single-page website built with HTML and CSS to introduce myself,
+          showcase my skills, and display projects from my web development course.
         </p>
+        <a href="#" class="project-link">View Project</a>
       </div>
 
       <div class="project-card">
-        <h3>Future Project</h3>
+        <p class="project-number">02</p>
+        <h3>Responsive Webpage Project</h3>
         <p>
-          This space will be used to showcase another web development project
-          I complete during the course.
+          A responsive page built to adapt to different screen sizes with a clean layout,
+          easy navigation, and a fresh mobile-first design.
         </p>
+        <a href="#" class="project-link">View Project</a>
       </div>
 
       <div class="project-card">
-        <h3>Future Project</h3>
+        <p class="project-number">03</p>
+        <h3>AI Design Experiment</h3>
         <p>
-          This space will be used to highlight another project that shows my
-          growth in web development.
+          A creative practice project where I tested new color styles, layout ideas,
+          and simple animations to improve my user interface design skills.
         </p>
+        <a href="#" class="project-link">View Project</a>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="section contact-section">
+    <p class="section-label">Let’s Connect</p>
     <h2>Contact Me</h2>
+
     <p>
-      Interested in connecting? Feel free to reach out or view my work online.
+      Thanks for visiting my portfolio. Feel free to reach out if you would like
+      to connect or learn more about my work.
     </p>
 
-    <a href="mailto:chacon.erick23@gmail.com" class="button">Email Me</a>
+    <a href="mailto:chacon.erick23@gmail.com" class="button">Email Erick</a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Erick. All rights reserved.</p>
+    <p>&copy; 2026 Erick Chacon. Built with HTML and CSS.</p>
   </footer>
 
 </body>
