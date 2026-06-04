@@ -363,9 +363,14 @@ footer {
   }
 
   .nav-links {
-    flex-direction: column;
-    text-align: center;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 16px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
   }
 
   .hero h1 {
@@ -382,9 +387,8 @@ footer {
     max-width: 850px;
   }
 
-  .hero-image {
-    margin: 0 auto 24px;
-    transform: none;
+  .hero-image-frame {
+    margin: 0 auto 80px;
   }
 
   .hero-description {
